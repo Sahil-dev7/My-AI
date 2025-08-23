@@ -1,0 +1,35 @@
+{
+  "allFiles": [
+    {
+      "file": "/storage/emulated/0/AndroidIDEProjects/Aarti ai/build.gradle.kts",
+      "selection": {
+        "end": {
+          "column": 0,
+          "index": 950,
+          "line": 31
+        },
+        "start": {
+          "column": 0,
+          "index": 950,
+          "line": 31
+        }
+      }
+    },
+    {
+      "file": "/storage/emulated/0/AndroidIDEProjects/Aarti ai/app/src/main/java/com/aarti/ai/MainActivity.kt",
+      "selection": {
+        "end": {
+          "column": 0,
+          "index": 1400,
+          "line": 50
+        },
+        "start": {
+          "column": 0,
+          "index": 1400,
+          "line": 50
+        }
+      }
+    }
+  ],
+  "selectedFile": "/storage/emulated/0/AndroidIDEProjects/Aarti ai/app/src/main/java/com/aarti/ai/MainActivity.kt"
+}
