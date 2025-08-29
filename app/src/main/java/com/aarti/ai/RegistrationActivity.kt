@@ -12,7 +12,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import com.aarti.ai.ui.theme.AartiTheme
 
-class MainActivity : ComponentActivity() {
+class RegistrationActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContent {
@@ -21,7 +21,7 @@ class MainActivity : ComponentActivity() {
                     modifier = Modifier.fillMaxSize(),
                     color = MaterialTheme.colorScheme.background
                 ) {
-                    MainAppContent()
+                    RegistrationScreen()
                 }
             }
         }
@@ -29,14 +29,14 @@ class MainActivity : ComponentActivity() {
 }
 
 @Composable
-fun MainAppContent() {
-    Text(text = "Welcome to Aarti!", color = MaterialTheme.colorScheme.onBackground)
+fun RegistrationScreen() {
+    Text(text = "Registration Screen - Coming Soon!", color = MaterialTheme.colorScheme.onBackground)
 }
 
 @Preview(showBackground = true)
 @Composable
-fun MainAppContentPreview() {
+fun RegistrationScreenPreview() {
     AartiTheme {
-        MainAppContent()
+        RegistrationScreen()
     }
 }

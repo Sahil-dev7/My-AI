@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- Base application theme. -->
-    <style name="Theme.Aarti" parent="android:Theme.Material.Light.NoActionBar">
-        <!-- Customize your light theme here. -->
+    <style name="Theme.Aarti" parent="android:Theme.Material.NoActionBar">
+        <!-- Customize your dark theme here. -->
         <item name="colorPrimary">@color/AartiPrimary</item>
         <item name="colorPrimaryVariant">@color/AartiPrimary</item>
         <item name="colorOnPrimary">@color/AartiOnPrimary</item>
@@ -16,18 +15,4 @@
         <item name="colorOnBackground">@color/AartiOnBackground</item>
         <item name="colorOnSurface">@color/AartiOnSurface</item>
     </style>
-
-    <style name="Theme.Aarti.NoActionBar" parent="Theme.Aarti">
-        <item name="windowActionBar">false</item>
-        <item name="windowNoTitle">true</item>
-    </style>
-
-    <!-- Splash Screen Theme -->
-    <style name="Theme.SplashScreen" parent="Theme.SplashScreen.IconBackground">
-        <item name="windowSplashScreenBackground">@color/AartiBackground</item>
-        <item name="windowSplashScreenAnimatedIcon">@drawable/aarti_logo_ultimate_merge</item>
-        <item name="windowSplashScreenAnimationDuration">1000</item>
-        <item name="postSplashScreenTheme">@style/Theme.Aarti.NoActionBar</item>
-    </style>
-
 </resources>

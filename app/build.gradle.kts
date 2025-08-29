@@ -2,6 +2,8 @@
 plugins {
     id("com.android.application")
     id("kotlin-android")
+    id("org.jetbrains.kotlin.android") version "1.9.24" apply false
+}
 }
 
 android {
