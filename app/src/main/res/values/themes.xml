@@ -1,33 +1,23 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <!-- Base application theme. -->
-    <style name="Theme.Aarti" parent="android:Theme.Material.Light.NoActionBar">
-        <!-- Customize your light theme here. -->
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="Theme.Aarti" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Primary colors -->
         <item name="colorPrimary">@color/AartiPrimary</item>
-        <item name="colorPrimaryVariant">@color/AartiPrimary</item>
         <item name="colorOnPrimary">@color/AartiOnPrimary</item>
+
+        <!-- Secondary colors -->
         <item name="colorSecondary">@color/AartiSecondary</item>
-        <item name="colorSecondaryVariant">@color/AartiSecondary</item>
         <item name="colorOnSecondary">@color/AartiOnSecondary</item>
+
+        <!-- Background & Surface -->
         <item name="android:colorBackground">@color/AartiBackground</item>
-        <item name="colorSurface">@color/AartiSurface</item>
-        <item name="colorError">@color/AartiError</item>
-        <item name="colorOnError">@color/AartiOnPrimary</item>
         <item name="colorOnBackground">@color/AartiOnBackground</item>
+        <item name="colorSurface">@color/AartiSurface</item>
         <item name="colorOnSurface">@color/AartiOnSurface</item>
-    </style>
 
-    <style name="Theme.Aarti.NoActionBar" parent="Theme.Aarti">
-        <item name="windowActionBar">false</item>
-        <item name="windowNoTitle">true</item>
-    </style>
-
-    <!-- Splash Screen Theme -->
-    <style name="Theme.SplashScreen" parent="Theme.SplashScreen.IconBackground">
-        <item name="windowSplashScreenBackground">@color/AartiBackground</item>
-        <item name="windowSplashScreenAnimatedIcon">@drawable/aarti_logo_ultimate_merge</item>
-        <item name="windowSplashScreenAnimationDuration">1000</item>
-        <item name="postSplashScreenTheme">@style/Theme.Aarti.NoActionBar</item>
+        <!-- Error -->
+        <item name="colorError">@color/AartiError</item>
+        <item name="colorOnError">@color/AartiOnError</item>
     </style>
 
 </resources>

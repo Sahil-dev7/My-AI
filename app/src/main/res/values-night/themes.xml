@@ -15,4 +15,10 @@
         <item name="colorOnBackground">@color/AartiOnBackground</item>
         <item name="colorOnSurface">@color/AartiOnSurface</item>
     </style>
+
+    <!-- yeh dark mode NoActionBar theme ke liye -->
+    <style name="Theme.Aarti.NoActionBar" parent="Theme.Aarti">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
 </resources>

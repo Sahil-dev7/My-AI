@@ -1,35 +1,140 @@
 {
   "allFiles": [
     {
-      "file": "/storage/emulated/0/AndroidIDEProjects/Aarti ai/build.gradle.kts",
+      "file": "/storage/emulated/0/AndroidIDEProjects/Aarti ai/app/src/main/java/com/aarti/ai/WaterReminderReciever.kt",
       "selection": {
         "end": {
           "column": 1,
-          "index": 141,
-          "line": 3
+          "index": 3103,
+          "line": 76
         },
         "start": {
           "column": 1,
-          "index": 141,
-          "line": 3
+          "index": 3103,
+          "line": 76
         }
       }
     },
     {
-      "file": "/storage/emulated/0/AndroidIDEProjects/Aarti ai/settings.gradle.kts",
+      "file": "/storage/emulated/0/AndroidIDEProjects/Aarti ai/app/src/main/java/com/aarti/ai/WaterAddReciever.kt",
       "selection": {
         "end": {
           "column": 1,
-          "index": 114,
-          "line": 6
+          "index": 635,
+          "line": 16
         },
         "start": {
           "column": 1,
-          "index": 114,
-          "line": 6
+          "index": 635,
+          "line": 16
+        }
+      }
+    },
+    {
+      "file": "/storage/emulated/0/AndroidIDEProjects/Aarti ai/app/src/main/AndroidManifest.xml",
+      "selection": {
+        "end": {
+          "column": 11,
+          "index": 2447,
+          "line": 56
+        },
+        "start": {
+          "column": 11,
+          "index": 2447,
+          "line": 56
+        }
+      }
+    },
+    {
+      "file": "/storage/emulated/0/AndroidIDEProjects/Aarti ai/app/src/main/java/com/aarti/ai/SessionManager.kt",
+      "selection": {
+        "end": {
+          "column": 0,
+          "index": 0,
+          "line": 0
+        },
+        "start": {
+          "column": 0,
+          "index": 0,
+          "line": 0
+        }
+      }
+    },
+    {
+      "file": "/storage/emulated/0/AndroidIDEProjects/Aarti ai/app/src/main/java/com/aarti/ai/prefs.kt",
+      "selection": {
+        "end": {
+          "column": 1,
+          "index": 193,
+          "line": 7
+        },
+        "start": {
+          "column": 1,
+          "index": 193,
+          "line": 7
+        }
+      }
+    },
+    {
+      "file": "/storage/emulated/0/AndroidIDEProjects/Aarti ai/app/src/main/java/com/aarti/ai/SplashScreenActivity.kt",
+      "selection": {
+        "end": {
+          "column": 1,
+          "index": 3398,
+          "line": 90
+        },
+        "start": {
+          "column": 1,
+          "index": 3398,
+          "line": 90
+        }
+      }
+    },
+    {
+      "file": "/storage/emulated/0/AndroidIDEProjects/Aarti ai/app/src/main/java/com/aarti/ai/LoginActivity.kt",
+      "selection": {
+        "end": {
+          "column": 1,
+          "index": 4555,
+          "line": 127
+        },
+        "start": {
+          "column": 1,
+          "index": 4555,
+          "line": 127
+        }
+      }
+    },
+    {
+      "file": "/storage/emulated/0/AndroidIDEProjects/Aarti ai/app/src/main/java/com/aarti/ai/RegistrationActivity.kt",
+      "selection": {
+        "end": {
+          "column": 1,
+          "index": 8302,
+          "line": 190
+        },
+        "start": {
+          "column": 1,
+          "index": 8302,
+          "line": 190
+        }
+      }
+    },
+    {
+      "file": "/storage/emulated/0/AndroidIDEProjects/Aarti ai/app/src/main/java/com/aarti/ai/MainActivity.kt",
+      "selection": {
+        "end": {
+          "column": 1,
+          "index": 3187,
+          "line": 103
+        },
+        "start": {
+          "column": 1,
+          "index": 3187,
+          "line": 103
         }
       }
     }
   ],
-  "selectedFile": "/storage/emulated/0/AndroidIDEProjects/Aarti ai/build.gradle.kts"
+  "selectedFile": "/storage/emulated/0/AndroidIDEProjects/Aarti ai/app/src/main/java/com/aarti/ai/SplashScreenActivity.kt"
 }
