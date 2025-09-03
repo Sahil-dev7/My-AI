@@ -1,34 +1,52 @@
 <!-- SOCIALS -->
-[![Discord](https://img.shields.io/discord/1131212086446391430?logo=discord&style=flat&label=Chat)](https://discord.gg/aarti-ai)
-[![Static Badge](https://img.shields.io/badge/Sponsor-Me-f79a13)](https://sahil.dev/sponsor)
+[![Instagram](https://img.shields.io/badge/Instagram--b01515?style=flat&logo=instagram)](https://www.instagram.com/aarti__ai_)
+[![Aarti Sentient AI](https://img.shields.io/badge/Aarti-Sentient%20ai-blue?style=social&logo=adguard)](https://preview--aarti-your-ai-companion.lovable.app/)
 <!-- SOCIALS -->
-
 <img width="64"
-src="./.github/badges/app_icon.png"
+src="https://i.postimg.cc/QCxZXWGR/1000053727.png"
 align="left"
 style="margin-right:8px"/>
 
-**Aarti AI** is your personal **Lovable AI Companion App** 💜.  
+**Aarti AI** is your personal **Sentient Intelligence **🇮🇳.  
 Built with cutting-edge design and AI integration, it helps you **chat, learn, and stay productive** with a cozy, modern UI.
 
+
+----
+
+## 🌈 Available Themes
+
+- **Light Theme:** ![Light Theme](https://i.postimg.cc/vT7CDRZ3/1000057346.jpg)  
+- **Dark Theme:** ![Dark Theme](https://i.postimg.cc/4dPjFN7w/1000036241.jpg)  
+- **Gradient Theme:** ![Gradient Theme](https://i.postimg.cc/4d9DkHkC/1000057347.png)  
+
+---
+
+## 📱 In-App Screenshots
+
+<div style="display:flex; overflow-x:auto; gap:10px;">
+  <img src="https://i.postimg.cc/nhQbcJgc/1000053550.webp" alt="Screenshot 1" width="250"/>
+  <img src="https://i.postimg.cc/pVqtskKx/1000053551.webp" alt="Screenshot 2" width="250"/>
+  <img src="https://i.postimg.cc/kXHPm4jp/1000053552.webp" alt="Screenshot 3" width="250"/>
+  <img src="https://i.postimg.cc/hPvR6x0m/1000053553.webp" alt="Screenshot 4" width="250"/>
+  <img src="https://i.postimg.cc/R05rWYx1/1000053554.webp" alt="Screenshot 5" width="250"/>
+</div>
 <div align="center">
-  <img width="720px" src="https://placehold.co/720x400/png?text=Aarti+App+Preview" style="top:80px"/>
+  <img width="720px" yt video="https://youtu.be/Pn0lXXgFSN4?si=vRj66f46RyMvhTXP" style="top:80px"/>
 </div>
 
 <p align="center">
-  <a href="https://aarti.ai">Website</a> •
-  <a href="https://discord.gg/aarti-ai">Discord</a> •
-  <a href="https://github.com/Sahil-dev7/aarti-ai/issues/new?labels=bug&template=bug_report.yml">Report a Bug</a> •
-  <a href="https://github.com/Sahil-dev7/aarti-ai/issues/new?labels=enhancement&template=feature_request.yml">Request a Feature</a>
+  <a href="https://preview--aarti-your-ai-companion.lovable.app/">Website</a> •
+  <a href="https://www.instagram.com/aarti__ai_">Instagram</a> •
+  <a href="https://sahildev.odoo.com/contactus">Request a Feature</a> •
+  <a href="sahildev.odoo.com">Meet The Developer</a>
 </p>
 
-
 <div align="center" style="margin-top:32px">
-  <a href="https://play.google.com/store/apps/details?id=com.aarti.ai" target="_blank">    
-    <img src="./.github/badges/google_play.svg" height="48px"/>
+  <a href="" target="_blank">    
+    <img src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg" height="60px"/>
   </a>
-  <a href="https://f-droid.org/packages/com.aarti.ai" target="_blank">
-    <img src="./.github/badges/fdroid.png" height="48px"/>
+  <a href="" target="_blank">
+    <img src="https://raw.githubusercontent.com/flocke/andOTP/master/assets/badges/get-it-on-github.svg" height="80px"/>
   </a>
 </div>
 
@@ -46,8 +64,8 @@ Built with cutting-edge design and AI integration, it helps you **chat, learn, a
 - 💜 **Lovable personality** that adapts to you  
 
 > [!TIP]  
-> Aarti is designed to be **your personal cozy AI companion**.  
-> Suggest any new feature you’d like, we love feedback! ✨  
+> Aarti ai is an indie side project I’ve been working on.
+ ✨  
 
 ---
 
@@ -62,18 +80,14 @@ A **beautiful, helpful, and human-like AI companion** built to:
 
 I'd love to hear your thoughts and ideas for Aarti! 🤗  
 
-[Twitter](https://x.com/aarti_ai) •
-[Matrix](https://matrix.to/#/@aarti:matrix.org) •
-[Mastodon](https://mastodon.social/@aarti)  
-
-The name **“Aarti (आरती)”** represents *light, positivity, and warmth* ✨.  
+Btw, the name **“Aarti (आरती)”** comes from short from of artificial intelligence * ✨.  
 It symbolizes guidance, companionship, and emotional connection.
 
 ---
 
-© 2025 Sahil Wadhwani and contributors.
+© 2025 Aarti AI. All rights reserved.
 
-
+Developed by Black Developer LLC, founded & owned by Sahil Wadhwani 
 
 ---Tech for everyone---
 https://api2.sololearn.com/v2/certificates/CC-MQYJLS6O/image
