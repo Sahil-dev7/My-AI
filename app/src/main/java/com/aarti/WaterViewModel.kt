@@ -88,7 +88,7 @@ class WaterViewModel(application: Application) : AndroidViewModel(application) {
     }
 
     private fun reminderPendingIntent(): PendingIntent {
-        val intent = Intent(appContext, WaterReminderReceiver::class.java)
+        val intent = Intent(appContext, com.aarti.ai.WaterReminderReceiver::class.java)
         return PendingIntent.getBroadcast(
             appContext,
             1001,

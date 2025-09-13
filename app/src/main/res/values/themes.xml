@@ -20,4 +20,10 @@
         <item name="colorOnError">@color/AartiOnError</item>
     </style>
 
+    <!-- Add this style for NoActionBar support -->
+    <style name="Theme.Aarti.NoActionBar" parent="Theme.Aarti">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
 </resources>
