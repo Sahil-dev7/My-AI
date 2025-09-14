@@ -1,4 +1,4 @@
-package com.aarti.ai
+package com.aarti.ai.water
 
 import android.content.Intent
 import android.provider.Settings

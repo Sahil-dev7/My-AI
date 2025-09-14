@@ -34,14 +34,14 @@
         <activity android:name=".MainActivity" android:exported="true" />
         <activity android:name=".LoginActivity" android:exported="true" />
         <activity android:name=".RegistrationActivity" android:exported="true" />
-        <activity android:name=".WaterTrackerScreenActivity" android:exported="true" />
-        <activity android:name=".SleepTrackerScreenActivity" android:exported="true" />
-        <activity android:name=".MoneyTrackerScreenActivity" android:exported="true" />
-        <activity android:name=".MarkdownNotesActivity" android:exported="true" />
+        <activity android:name=".water.WaterTrackerScreenActivity" android:exported="true" />
+        <activity android:name=".sleep.SleepTrackerScreenActivity" android:exported="true" />
+        <activity android:name=".ui.money.MoneyTrackerScreenActivity" android:exported="true" />
+        <activity android:name=".notes.MarkdownNotesActivity" android:exported="true" />
 
         <!-- Broadcast Receivers -->
         <receiver
-            android:name=".WaterReminderReceiver"
+            android:name=".water.WaterReminderReceiver"
             android:enabled="true"
             android:exported="true">
             <!-- Boot completed ke baad alarms reschedule karne ke liye -->
@@ -51,7 +51,7 @@
         </receiver>
 
         <receiver
-            android:name=".WaterAddReceiver"
+            android:name=".water.WaterAddReceiver"
             android:enabled="true"
             android:exported="true" />
 

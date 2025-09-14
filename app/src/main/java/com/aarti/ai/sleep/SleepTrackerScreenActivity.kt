@@ -1,4 +1,4 @@
-package com.aarti.ai
+package com.aarti.ai.sleep
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
