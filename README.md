@@ -7,7 +7,7 @@ src="https://i.postimg.cc/QCxZXWGR/1000053727.png"
 align="left"
 style="margin-right:8px"/>
 
-**Aarti AI** is your personal **Sentient Intelligence **🇮🇳.  
+**Aarti AI** is your personal **Sentient Intelligence **  
 Built with cutting-edge design and AI integration, it helps you **chat, learn, and stay productive** with a cozy, modern UI.
 
 
