@@ -37,6 +37,12 @@ class MainActivity : ComponentActivity() {
                         onOpenSleep = {
                             startActivity(Intent(this, SleepTrackerScreenActivity::class.java))
                         },
+                        onOpenMoney = {
+                            startActivity(Intent(this, MoneyTrackerScreenActivity::class.java))
+                        },
+                        onOpenMarkdownNotes = {
+                            startActivity(Intent(this, MarkdownNotesActivity::class.java))
+                        },
                         onLogout = {
                             prefs.edit().putBoolean(Prefs.KEY_LOGGED_IN, false).apply()
                             startActivity(Intent(this, LoginActivity::class.java))
@@ -54,6 +60,8 @@ fun MainScreen(
     userName: String,
     onOpenWater: () -> Unit,
     onOpenSleep: () -> Unit,
+    onOpenMoney: () -> Unit,
+    onOpenMarkdownNotes: () -> Unit,
     onLogout: () -> Unit
 ) {
     Column(
@@ -79,6 +87,14 @@ fun MainScreen(
             Text("Open Sleep Tracker")
         }
 
+        Button(onClick = onOpenMoney, modifier = Modifier.height(56.dp)) {
+            Text("Open Money Tracker")
+        }
+
+        Button(onClick = onOpenMarkdownNotes, modifier = Modifier.height(56.dp)) {
+            Text("Open Markdown Notes")
+        }
+
         Spacer(modifier = Modifier.height(32.dp))
 
         OutlinedButton(
@@ -90,6 +106,10 @@ fun MainScreen(
     }
 }
 
+// TODO: Implement offline storage for notes, chats, tasks
+// TODO: Add modular architecture for custom add-ons
+// TODO: Enhance lovable personality features
+
 @Preview(showBackground = true)
 @Composable
 fun MainScreenPreview() {
@@ -98,6 +118,8 @@ fun MainScreenPreview() {
             userName = "Sahil",
             onOpenWater = {},
             onOpenSleep = {},
+            onOpenMoney = {},
+            onOpenMarkdownNotes = {},
             onLogout = {}
         )
     }

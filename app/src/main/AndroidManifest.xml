@@ -36,6 +36,8 @@
         <activity android:name=".RegistrationActivity" android:exported="true" />
         <activity android:name=".WaterTrackerScreenActivity" android:exported="true" />
         <activity android:name=".SleepTrackerScreenActivity" android:exported="true" />
+        <activity android:name=".MoneyTrackerScreenActivity" android:exported="true" />
+        <activity android:name=".MarkdownNotesActivity" android:exported="true" />
 
         <!-- Broadcast Receivers -->
         <receiver

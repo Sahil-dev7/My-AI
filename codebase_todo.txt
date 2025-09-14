@@ -1,0 +1,86 @@
+pluginManagement {
+    repositories {
+        google()
+        mavenCentral()
+        gradlePluginPortal()
+    }
+}
+
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+    }
+}
+
+rootProject.name = "Aarti ai"
+include(":app")
+
+// Move feature files into subfolders for better structure
+// - /water/: WaterViewModel.kt, WaterTrackerScreen.kt, WaterTrackerScreenActivity.kt, WaterReminderReceiver.kt, WaterAddReceiver.kt
+// - /money/: MoneyEntry.kt, MoneyEntryDao.kt, MoneyViewModel.kt, MoneyTrackerScreen.kt, MoneyTrackerScreenActivity.kt
+// - /notes/: MarkdownNoteManager.kt, MarkdownNotesScreen.kt, MarkdownNotesActivity.kt
+// - /sleep/: SleepTrackerScreen.kt, SleepTrackerScreenActivity.kt
+
+// After moving, update package declarations at the top of each file to match their new location (e.g., package com.aarti.ai.water).
+
+// Manifest References
+// - After moving files, update all activity and receiver references in AndroidManifest.xml to match new package paths.
+// - Example: android:name=".water.WaterReminderReceiver"
+
+// Room Database Setup
+// - Add Room dependencies to app/build.gradle.kts:
+//   implementation("androidx.room:room-runtime:2.6.1")
+//   kapt("androidx.room:room-compiler:2.6.1")
+//   implementation("androidx.room:room-ktx:2.6.1")
+// - Apply the 'kotlin-kapt' plugin in build.gradle.kts:
+//   plugins {
+//       id("kotlin-kapt")
+//       ...existing code...
+//   }
+
+// Markdown Rendering
+// - Add markdown rendering dependency to app/build.gradle.kts:
+//   implementation("com.github.halilozercan:compose-markdown:0.3.1")
+// - In MarkdownNotesScreen.kt, import and use Markdown composable for preview.
+
+// Sleep Tracker Persistence
+// - Implement Room DB for SleepEntry (similar to MoneyEntry).
+// - Create SleepEntry.kt, SleepEntryDao.kt, SleepViewModel.kt, and update SleepTrackerScreen.kt to use persistent storage.
+
+// Navigation
+// - Use Navigation Compose for screen transitions instead of startActivity for a more modern approach.
+// - Create a NavHost in MainActivity and define navigation routes for each feature.
+
+// General Codebase Cleanup
+// - Remove unused imports and duplicate code.
+// - Ensure all package names are correct after moving files.
+// - Check for any unresolved references or missing resources.
+
+// Note-Taking Feature (Obsidian-like)
+// - Ensure MarkdownNoteManager saves notes as .md files in local storage.
+// - Add export/import functionality for markdown notes.
+// - Add search/filter for notes in MarkdownNotesScreen.kt.
+
+// Productivity Tweaks
+// - Add quick actions to main screen (e.g., add note, add money entry).
+// - Add reminders for notes/tasks.
+// - Add summary/statistics for water, sleep, money, and notes.
+
+// Testing
+// - Run the app and test each feature.
+// - Fix any runtime crashes or UI glitches.
+// - Check for missing permissions or manifest errors.
+
+// What You Must Do Manually
+// - Move files physically and update package declarations.
+// - Update AndroidManifest.xml after moving files.
+// - Add missing Room DB for sleep tracker.
+// - Implement advanced Obsidian plugin system (if needed).
+// - Add icons/images not present in repo.
+// - Test on device/emulator for runtime issues.
+
+// Final Steps
+// - After all changes, run `./gradlew clean build` to check for build errors.
+// - Commit and push your changes.
